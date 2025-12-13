@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
 import Service from "./components/Service";
+import OurWork from "./components/OurWork";
 
 function App() {
   const [theme, setTheme] = useState(
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <TrustedBy />
       <Service />
+      <OurWork/>
     </div>
   );
 }
