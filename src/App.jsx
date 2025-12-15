@@ -6,6 +6,7 @@ import Service from "./components/Service";
 import OurWork from "./components/OurWork";
 import Teams from "./components/Teams";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 import {Toaster} from "react-hot-toast";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <OurWork />
       <Teams />
       <ContactUs />
+      <Footer theme={theme}/>
     </div>
   );
 }
